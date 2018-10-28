@@ -14,14 +14,14 @@ public class BinarySearch {
 
 		}
 		else {
-			search(1,limit/2,input,0);//37
+			search(1,limit/2,input,0);
 
 		}
 		
 		
 		
 	}
-	static void search(int b,int e,int o,int c)//1 50 20
+	static void search(int b,int e,int o,int c)
 	{
 		c++;
 		if(b==o)
@@ -31,11 +31,11 @@ public class BinarySearch {
 		
 		else if(o>((e-b)/2+b))
 		{
-			search((e-b)/2+b+1, e, o,c);//13 25 20
+			search((e-b)/2+b+1, e, o,c);
 			
 		}
 		else {
-			search(b, (e-b)/2+b+1, o,c);// 1 25 20
+			search(b, (e-b)/2+b+1, o,c);
 		}
 		
 	}
